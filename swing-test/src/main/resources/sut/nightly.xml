@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sut>
+    <environment>
+        <class>org.jsystem.environment.DemoEnvironmentController</class>
+        <applicationClassPath>Xroot/systemObjects/gui/swing/classes</applicationClassPath>
+        <!-- Optional -->
+        <!--
+        <portNumber>5555</portNumber>
+        
+        <serverClass>org.jsystem.objects.xmlrpc.XmlRpcServer</serverClass>
+        -->
+        <handlersListObject>org.jsystem.objects.handlers.ExampleHandlersList </handlersListObject>
+    </environment>
+</sut>
